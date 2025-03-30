@@ -1,0 +1,23 @@
+{
+  "name": "db-mcp",
+  "version": "1.0.0",
+  "description": "Database Model Context Protocol (DB-MCP) Server",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "@types/bun": "latest"
+  },
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "pg": "^8.14.1",
+    "uuid": "^11.1.0"
+  }
+}
